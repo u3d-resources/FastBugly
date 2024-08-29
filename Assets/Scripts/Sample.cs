@@ -10,7 +10,7 @@ public class Sample : MonoBehaviour
 #if UNITY_IOS
         BuglyAgent.InitWithAppId ("your ios app id");
 #elif UNITY_ANDROID
-        BuglyAgent.InitWithAppId ("812665466a");
+        BuglyAgent.InitWithAppId ("3fbb290c39");
 #endif
 
         BuglyAgent.ConfigDebugMode(true);
@@ -26,7 +26,7 @@ public class Sample : MonoBehaviour
 
     void TestNullReference()
     {
-        style.fontSize = 22;
+        style.fontSize = 42;
         try
         {
             GameObject go = null;
